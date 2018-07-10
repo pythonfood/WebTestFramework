@@ -1,0 +1,5 @@
+selenium
+parameterized
+requests
+pymysql
+pyexcel

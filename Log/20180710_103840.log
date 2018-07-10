@@ -1,0 +1,37 @@
+2018-07-10 10:38:41,045- run.py(13)- INFO- ***************INIT DATABASE***************
+2018-07-10 10:38:41,046- testdata.py(85)- INFO- Clear database from xml:CaseDatabase.xml
+2018-07-10 10:38:41,064- mysql.py(42)- INFO- Connect database:hive_new_copy
+2018-07-10 10:38:41,079- mysql.py(56)- INFO- Execute sql:DELETE FROM new_qiyi_user_vip_copy
+2018-07-10 10:38:41,080- mysql.py(98)- INFO- Disconnect database:hive_new_copy
+2018-07-10 10:38:41,080- testdata.py(41)- INFO- Init database from xml:CaseDatabase.xml
+2018-07-10 10:38:41,084- mysql.py(42)- INFO- Connect database:hive_new_copy
+2018-07-10 10:38:41,085- testdata.py(26)- INFO- Read test data from excel:test_search_keyword.xlsx
+2018-07-10 10:38:42,136- myexcel.py(21)- INFO- Read exel:test_search_keyword.xlsx
+2018-07-10 10:38:42,140- mysql.py(98)- INFO- Disconnect database:hive_new_copy
+2018-07-10 10:38:42,140- run.py(17)- INFO- ***************TEST START***************
+2018-07-10 10:38:42,140- testsuite.py(29)- INFO- Get test case list from txt:caselist.txt
+2018-07-10 10:38:42,140- testsuite.py(53)- INFO- Run test case.
+2018-07-10 10:38:42,140- testsuite.py(40)- INFO- Set test suite.
+2018-07-10 10:38:42,294- testdata.py(26)- INFO- Read test data from excel:test_search_keyword.xlsx
+2018-07-10 10:38:42,305- myexcel.py(21)- INFO- Read exel:test_search_keyword.xlsx
+2018-07-10 10:38:47,829- test_baidu.py(44)- INFO- Run test case:test_search_keyword_0_搜索中文
+2018-07-10 10:38:47,829- test_baidu.py(49)- INFO- * 打开url:https://www.baidu.com
+2018-07-10 10:38:52,391- test_baidu.py(53)- INFO- * 输入keyword:自动化测试
+2018-07-10 10:38:53,942- test_baidu.py(58)- INFO- * 点击搜索按钮
+2018-07-10 10:38:58,944- test_baidu.py(64)- INFO- * 页面截图:test_search_keyword_0_搜索中文.png
+2018-07-10 10:38:59,359- test_baidu.py(70)- INFO- * 期望页面title:自动化测试_百度搜索,实际页面title:自动化测试_百度搜索。
+2018-07-10 10:39:11,543- test_baidu.py(44)- INFO- Run test case:test_search_keyword_1_搜索英文
+2018-07-10 10:39:11,543- test_baidu.py(49)- INFO- * 打开url:https://www.baidu.com
+2018-07-10 10:39:15,191- test_baidu.py(53)- INFO- * 输入keyword:selenium
+2018-07-10 10:39:16,683- test_baidu.py(58)- INFO- * 点击搜索按钮
+2018-07-10 10:39:21,684- test_baidu.py(64)- INFO- * 页面截图:test_search_keyword_1_搜索英文.png
+2018-07-10 10:39:22,080- test_baidu.py(70)- INFO- * 期望页面title:selenium_百度搜索,实际页面title:selenium_百度搜索。
+2018-07-10 10:39:34,221- test_baidu.py(44)- INFO- Run test case:test_search_keyword_2_搜索多词
+2018-07-10 10:39:34,221- test_baidu.py(49)- INFO- * 打开url:https://www.baidu.com
+2018-07-10 10:39:38,284- test_baidu.py(53)- INFO- * 输入keyword:selenium appium
+2018-07-10 10:39:39,949- test_baidu.py(58)- INFO- * 点击搜索按钮
+2018-07-10 10:39:44,949- test_baidu.py(64)- INFO- * 页面截图:test_search_keyword_2_搜索多词.png
+2018-07-10 10:39:45,341- test_baidu.py(70)- INFO- * 期望页面title:selenium appium_百度搜索,实际页面title:selenium appium_百度搜索。
+2018-07-10 10:39:53,463- testsuite.py(67)- INFO- Generate test report:TestResult 2018-07-10 10_38_42.html
+2018-07-10 10:39:53,463- run.py(21)- INFO- ***************SEND REPORT***************
+2018-07-10 10:39:53,672- myemail.py(83)- INFO- Send test report email:TestResult 2018-07-10 10_38_42.html
